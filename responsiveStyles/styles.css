@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    width: min(900px,90%);
+    height: 70%;
+    outline: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    grid-template-rows: auto;
+}
+div{
+    width:80%;
+    height: 80%;
+    margin: auto;
+    outline: 2px solid red;
+}
+

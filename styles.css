@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    width: 45%;
+    height: 70%;
+    outline: 2px groove green;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 25% 50%;
+
+}
+input{
+    width: 50%;
+    height: 30px;
+    outline: none;
+    margin: auto;
+}
+button{
+    width: fit-content;
+    height: fit-content;
+    padding:4% ;
+    background-color: blue;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
